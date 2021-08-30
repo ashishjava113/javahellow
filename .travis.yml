@@ -11,8 +11,8 @@ deploy:
   skip_cleanup: true
   edge: true
   provider: elasticbeanstalk
-  access_key_id: "AKIAXGSUQVYHDRLG2GDW"
-  secret_access_key: "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"
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
   region: "us-east-2"
   app: "javaapp5"
   env: "Javaapp5-env"
