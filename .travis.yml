@@ -1,0 +1,22 @@
+sudo: required
+services:
+  - docker
+before_install:
+  - docker build -t javaapp1 .
+script:
+  - docker run -e CI=true -p 8080:8080 javaapp1
+before_deploy: "echo 'ready?'"
+
+deploy:
+  provider: elasticbeanstalk
+  access_key_id:
+    secure: $AWS_ACCESS_KEY
+  secret_access_key:
+    secure: "$AWS_SECRET_KEY"
+  region: "us-east-2"
+  app: "javaapp5"
+  env: "Javaapp5-env"
+  bucket_name: "elasticbeanstalk-us-east-2-495172234766"
+
+after_deploy:
+  - echo "done deployment..."
