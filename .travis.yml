@@ -10,9 +10,9 @@ before_deploy: "echo 'ready?'"
 deploy:
   provider: elasticbeanstalk
   access_key_id:
-    secure: $AWS_ACCESS_KEY
+    secure: "AKIAXGSUQVYHDRLG2GDW"
   secret_access_key:
-    secure: "$AWS_SECRET_KEY"
+    secure: "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"
   region: "us-east-2"
   app: "javaapp5"
   env: "Javaapp5-env"
