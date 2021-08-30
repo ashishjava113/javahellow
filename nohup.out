@@ -1,0 +1,21 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.4)
+
+2021-08-30 08:04:45.415  INFO 1 --- [           main] c.practice.hellow.BoothellowApplication  : Starting BoothellowApplication v0.0.1-SNAPSHOT using Java 11.0.12 on 340c9fca0bd4 with PID 1 (/usr/src/myapp/boothellow-0.0.1-SNAPSHOT.jar started by root in /usr/src/myapp)
+2021-08-30 08:04:45.422  INFO 1 --- [           main] c.practice.hellow.BoothellowApplication  : No active profile set, falling back to default profiles: default
+2021-08-30 08:04:48.120  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-30 08:04:48.148  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-30 08:04:48.149  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-08-30 08:04:48.273  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-30 08:04:48.273  INFO 1 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2582 ms
+2021-08-30 08:04:49.177  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-30 08:04:49.208  INFO 1 --- [           main] c.practice.hellow.BoothellowApplication  : Started BoothellowApplication in 5.137 seconds (JVM running for 6.148)
+2021-08-30 08:04:56.897  INFO 1 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-30 08:04:56.897  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-30 08:04:56.899  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms

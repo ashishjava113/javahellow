@@ -4,7 +4,7 @@ services:
 before_install:
   - docker build -t javaapp1 .
 script:
-  - docker run -e CI=true -p 8080:8080 javaapp1
+  - nohup docker run -e CI=true -p 8080:8080 javaapp1 &
 before_deploy: "echo 'ready?'"
 
 deploy:
